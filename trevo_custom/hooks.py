@@ -1,7 +1,7 @@
 app_name = "trevo_custom"
 app_title = "Trevo"
 app_publisher = "Charbel Mahougnon .D"
-app_description = "ERP Enterprise Trevo"
+app_description = "ERP Trevo Enterprise"
 app_email = "charbelmahougnon87@gmail.com"
 app_license = "unlicense"
 

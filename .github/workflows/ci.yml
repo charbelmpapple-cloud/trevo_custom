@@ -3,11 +3,11 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
 
 concurrency:
-  group: main-trevo_custom-${{ github.event.number }}
+  group: master-trevo_custom-${{ github.event.number }}
   cancel-in-progress: true
 
 jobs:

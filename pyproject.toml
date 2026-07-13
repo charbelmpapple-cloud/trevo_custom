@@ -3,7 +3,7 @@ name = "trevo_custom"
 authors = [
     { name = "Charbel Mahougnon .D", email = "charbelmahougnon87@gmail.com"}
 ]
-description = "ERP Enterprise Trevo"
+description = "ERP Trevo Enterprise"
 requires-python = ">=3.14"
 readme = "README.md"
 dynamic = ["version"]
