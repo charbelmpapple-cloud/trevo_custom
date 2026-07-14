@@ -1,7 +1,7 @@
 app_name = "trevo_custom"
-app_title = "Trevo"
+app_title = "Trevo ERP"
 app_publisher = "Charbel Mahougnon .D"
-app_description = "ERP Trevo Enterprise"
+app_description = "Trevo ERP is a custom app for ERPNext that provides additional features and customizations tailored to the needs of businesses using the ERPNext platform."
 app_email = "charbelmahougnon87@gmail.com"
 app_license = "unlicense"
 
@@ -20,10 +20,11 @@ app_license = "unlicense"
 # 		"has_permission": "trevo_custom.api.permission.has_app_permission"
 # 	}
 # ]
-brand_html = '<div><img src="/assets/trevo_custom/images/logo-navbar.png" style="height: 24px; vertical-align: middle; margin-right: 8px;"> <b>Trevo</b></div>'
+# Logos Officiels de la Marque
+app_logo_url = "/assets/trevo_custom/images/logo-navbar.png"
 splash_screen = "trevo_custom/public/images/splash-screen.png"
 website_context = {
-    "app_html_title": "Connexion | Trevo ERP",
+    "app_html_title": "Trevo ERP With ERPNext",
     "favicon": "/assets/trevo_custom/images/favicon.png",
     "splash_image": "/assets/trevo_custom/images/logo-login.png"
 }
