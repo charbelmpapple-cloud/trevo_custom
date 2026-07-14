@@ -10,16 +10,23 @@ app_license = "unlicense"
 
 # required_apps = []
 
- Each item in the list will be shown as an app in the apps page
-  add_to_apps_screen = [
- 	{
- 		"name": "trevo_custom",
- 		"logo": "/assets/trevo_custom/logo.png",
- 		"title": "Trevo",
- 		"route": "/trevo_custom",
-		"has_permission": "trevo_custom.api.permission.has_app_permission"
- 	}
- ]
+# Each item in the list will be shown as an app in the apps page
+# add_to_apps_screen = [
+# 	{
+# 		"name": "trevo_custom",
+# 		"logo": "/assets/trevo_custom/logo.png",
+# 		"title": "Trevo",
+# 		"route": "/trevo_custom",
+# 		"has_permission": "trevo_custom.api.permission.has_app_permission"
+# 	}
+# ]
+brand_html = '<div><img src="/assets/trevo_custom/images/logo-navbar.png" style="height: 24px; vertical-align: middle; margin-right: 8px;"> <b>Trevo</b></div>'
+splash_screen = "trevo_custom/public/images/splash-screen.png"
+website_context = {
+    "app_html_title": "Connexion | Trevo ERP",
+    "favicon": "/assets/trevo_custom/images/favicon.png",
+    "splash_image": "/assets/trevo_custom/images/logo-login.png"
+}
 
 # Includes in <head>
 # ------------------
